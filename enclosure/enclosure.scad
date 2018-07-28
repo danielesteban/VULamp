@@ -20,7 +20,7 @@ color("Yellow") {
     cube([BOARD, BOARD, 6], center = true);
   }
   difference() {
-    rotate([-15, 0, 0]) {
+    rotate([-16, 0, 0]) {
       // supports
       for (direction = [-1, 1])
       translate([(RADIUS - 16) * direction, 0, 0])
