@@ -6,7 +6,7 @@
 #define NUM_LEDS 9
 #define NUM_READS 10
 #define SENSITIVITY 3
-#define BRIGHTNESS 90
+#define BRIGHTNESS 127
 CRGB leds[NUM_LEDS];
 
 void setup() {
